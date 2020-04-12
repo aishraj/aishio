@@ -1,0 +1,93 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 1rem
+}
+
+header {
+  width: 100%
+}
+
+section {
+  flex: none;
+  max-width: 480px
+}
+
+
+p {
+  font-kerning: normal;
+  font-weight: 400;
+  line-height: 1.618;
+  font-size: 116.625%
+}
+
+
+h1 {
+  border-radius: .25rem;
+  max-width: max-content;
+  padding-left: .25rem;
+  padding-right: .25rem;
+  font-weight: 300;
+  font-size: 515%;
+  margin-bottom: 0
+}
+
+a {
+  text-decoration: none
+}
+
+h1 a {
+  font-weight: 300;
+  color: #333
+}
+
+
+.no-underline {
+  border-bottom: none;
+  text-decoration: none
+}
+
+.dark {
+  background: #272822;
+  color: #F8F8F2
+}
+
+.dark a {
+  color: #A6E22E;
+  padding-right: .25rem;
+  padding-left: .25rem;
+  border-radius: .1875rem
+}
+
+.dark a:visited {
+  color: #E6DB74;
+  padding-right: .25rem;
+  padding-left: .25rem;
+  border-radius: .1875rem
+}
+
+.dark a span:focus,
+.dark a span:hover,
+.dark a:focus,
+.dark a:hover {
+  color: #A6E22E;
+}
+
+.dark .learn-more a,
+.dark header h1 {
+  background-color: unset;
+  border-radius: 0
+}
+
+
+.dark .intro {
+  color: #ccc
+}
