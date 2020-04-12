@@ -52,37 +52,37 @@ h1 a {
   text-decoration: none;
 }
 
-.dark {
+.solarizedlight {
   background: #eee8d5;
   color: #073642;
 }
 
-.dark a {
+.solarizedlight a {
   color: #d33682;
   padding-right: 0.25rem;
   padding-left: 0.25rem;
   border-radius: 0.1875rem;
 }
 
-.dark a:visited {
+.solarizedlight a:visited {
   color: #dc322f;
   padding-right: 0.25rem;
   padding-left: 0.25rem;
   border-radius: 0.1875rem;
 }
 
-.dark a:focus,
-.dark a:hover {
+.solarizedlight a:focus,
+.solarizedlight a:hover {
   color: #b58900;
 }
 
-.dark .learn-more a,
-.dark header h1 {
+.solarizedlight .learn-more a,
+.solarizedlight header h1 {
   background-color: unset;
   border-radius: 0;
 }
 
-.dark .intro {
+.solarizedlight .intro {
   color: #ccc;
 }
 
