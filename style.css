@@ -74,11 +74,9 @@ h1 a {
   border-radius: .1875rem
 }
 
-.dark a span:focus,
-.dark a span:hover,
 .dark a:focus,
 .dark a:hover {
-  color: #A6E22E;
+  color: #AE81FF
 }
 
 .dark .learn-more a,
@@ -90,4 +88,16 @@ h1 a {
 
 .dark .intro {
   color: #ccc
+}
+
+#language {
+  font-size: 100%;
+  color: #66D9EF
+}
+
+#language a:hover,
+#language a:focus,
+#language a,
+#language a:visited {
+  color: #66D9EF
 }
